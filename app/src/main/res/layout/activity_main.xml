@@ -15,14 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Seb est un Dieu" />
+            android:text="@string/seb_est_un_dieu" />
 
         <Button
             android:id="@+id/SatrBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Seb a toujours raison" />
+            android:text="@string/seb_a_toujours_raison" />
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
