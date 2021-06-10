@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
     private fun setTextToSpeechLanguage() {
         val language: Locale = Locale.FRENCH
         val result  = tts?.setLanguage(language)
-        // pitch voice to 25%
-        tts?.setPitch(0.25F)
+        // pitch voice to 100%
+        tts?.setPitch(1F)
         if (result == TextToSpeech.LANG_MISSING_DATA) {
             Toast.makeText(this, "Missing language data", Toast.LENGTH_SHORT).show()
             return
